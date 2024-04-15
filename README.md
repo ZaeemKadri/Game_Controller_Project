@@ -42,7 +42,7 @@ while cap.isOpened():
                 landmarks.append((landmark.x, landmark.y))
 
             # Check for gestures
-            # For simplicity, let's assume thumb up, thumb down, index finger up, and index finger down are our gestures
+            # For simplicity, let's assume thumb up, thumb down, thumb right, and thumb left are our gestures
             thumb = landmarks[4]
             index = landmarks[8]
 
